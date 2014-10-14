@@ -1,0 +1,28 @@
+.color-scheme-preview
+  .palette-bg-1
+  .palette-bg-2
+  .palette
+    %table
+      - %w(primary secondary-a secondary-b complementary).each do |color|
+        %tr(class=color)
+          %td.variant3
+            .light Text
+            .medium Text
+            .dark Text
+          %td.base-color(rowspan=2)
+            .light Text
+            .medium Text
+            .dark Text
+          %td.variant1
+            .light Text
+            .medium Text
+            .dark Text
+        %tr(class=color)
+          %td.variant4
+            .light Text
+            .medium Text
+            .dark Text
+          %td.variant2
+            .light Text
+            .medium Text
+            .dark Text
